@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kuwait Computer Repair On Call | Expert Tech Repair at Your Doorstep</title>
+  <meta name="description" content="Kuwait's premier on-call computer repair service. Expert technicians come to you — laptop repair, virus removal, data recovery, networking & more. Available 24/7 across Kuwait." />
+  <meta name="keywords" content="computer repair Kuwait, laptop repair Kuwait, on-call tech support Kuwait, virus removal Kuwait, data recovery Kuwait, IT support Kuwait" />
+  <meta name="author" content="Kuwait Computer Repair On Call" />
+  <meta property="og:title" content="Kuwait Computer Repair On Call" />
+  <meta property="og:description" content="Expert computer repair technicians at your doorstep across Kuwait. Fast, reliable, affordable." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.computerrepairkuwait.com/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =====================
+       NAVBAR
+  ===================== -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#hero" class="logo">
+          <div class="logo-icon">💻</div>
+          <div class="logo-text">
+            Kuwait Computer Repair
+            <span>On-Call Tech Services</span>
+          </div>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#coverage">Coverage</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="tel:+96550000000" class="nav-phone" id="nav-call-link">
+            <i class="fas fa-phone-alt"></i>
+            +965 5000 0000
+          </a>
+          <a href="#contact" class="btn btn-primary" id="nav-book-btn">Book Now</a>
+        </div>
+
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobile-nav">
+    <button class="mobile-close" id="mobile-close-btn">&times;</button>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#how-it-works" class="mobile-link">How It Works</a>
+    <a href="#why-us" class="mobile-link">Why Us</a>
+    <a href="#coverage" class="mobile-link">Coverage</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <a href="tel:+96550000000" class="btn btn-primary" style="margin-top:16px">
+      <i class="fas fa-phone-alt"></i> Call Now
+    </a>
+  </div>
+
+  <!-- =====================
+       HERO
+  ===================== -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="hero-particles"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <!-- Left: Text -->
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Available 24/7 Across Kuwait
+          </div>
+
+          <h1 class="hero-title">
+            Expert Repairs,<br>
+            <span class="highlight">Right at Your</span><br>
+            <span class="gold">Doorstep</span>
+          </h1>
+
+          <p class="hero-desc">
+            Kuwait's most trusted on-call computer repair service. Our certified technicians come to you — home, office, or anywhere — delivering fast, professional solutions for all your tech problems.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary" id="hero-book-btn">
+              <i class="fas fa-calendar-check"></i>
+              Book a Technician
+            </a>
+            <a href="tel:+96550000000" class="btn btn-outline" id="hero-call-btn">
+              <i class="fas fa-phone-alt"></i>
+              Call Now
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="num" data-target="500">0</span>
+              <span class="label">Repairs Done</span>
+            </div>
+            <div class="hero-stat">
+              <span class="num" data-target="98">0</span>
+              <span class="label">% Satisfied</span>
+            </div>
+            <div class="hero-stat">
+              <span class="num" data-target="1">0</span>
+              <span class="label">Hr Response</span>
+            </div>
+            <div class="hero-stat">
+              <span class="num" data-target="24">0</span>
+              <span class="label">/ 7 Support</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Visual Card -->
+        <div class="hero-visual">
+          <div class="hero-card-main">
+            <img src="images/technician.png" alt="Kuwait Computer Repair Technician" class="hero-img" />
+
+            <div class="rating-badge">
+              <div>
+                <div class="stars">★★★★★</div>
+                <div class="rating-text"><strong>4.9/5</strong> — Trusted by 500+ customers</div>
+              </div>
+            </div>
+
+            <div class="availability-badge">
+              <div class="avail-dot"></div>
+              <div class="avail-text">
+                <strong>Technicians Online Now</strong> — Ready to dispatch
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-badge fb-1">
+            <i class="fas fa-bolt" style="color: var(--cyan-light)"></i>
+            1-Hour Response
+          </div>
+          <div class="floating-badge fb-2">
+            <i class="fas fa-shield-alt" style="color: var(--gold)"></i>
+            90-Day Guarantee
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       TRUST BAR
+  ===================== -->
+  <section id="trust-bar">
+    <div class="container">
+      <div class="trust-items">
+        <div class="trust-item">
+          <i class="fas fa-certificate"></i>
+          Certified Technicians
+        </div>
+        <div class="trust-item">
+          <i class="fas fa-shield-alt"></i>
+          90-Day Repair Warranty
+        </div>
+        <div class="trust-item">
+          <i class="fas fa-clock"></i>
+          1-Hour Response Time
+        </div>
+        <div class="trust-item">
+          <i class="fas fa-map-marker-alt"></i>
+          All Kuwait Governorates
+        </div>
+        <div class="trust-item">
+          <i class="fas fa-headset"></i>
+          24/7 Customer Support
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       SERVICES
+  ===================== -->
+  <section id="services">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="section-badge"><i class="fas fa-tools"></i> Our Services</div>
+        <h2 class="section-title">Everything Your Device Needs,<br><span>We've Got Covered</span></h2>
+        <p class="section-subtitle">From simple fixes to complex repairs, our certified technicians handle it all — at your location, on your schedule.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal delay-1">
+          <div class="service-icon si-blue">
+            <i class="fas fa-laptop"></i>
+          </div>
+          <h3 class="service-title">Laptop & Desktop Repair</h3>
+          <p class="service-desc">Hardware failures, motherboard issues, power problems, fan replacements, and full diagnostics for all brands — Dell, HP, Lenovo, Apple, and more.</p>
+          <span class="service-price"><i class="fas fa-tag"></i> Starting from 5 KD</span>
+        </div>
+
+        <div class="service-card reveal delay-2">
+          <div class="service-icon si-red">
+            <i class="fas fa-bug"></i>
+          </div>
+          <h3 class="service-title">Virus & Malware Removal</h3>
+          <p class="service-desc">Complete system scan and removal of viruses, spyware, ransomware, and malware. System hardening and security software installation included.</p>
+          <span class="service-price"><i class="fas fa-tag"></i> Starting from 8 KD</span>
+        </div>
+
+        <div class="service-card reveal delay-3">
+          <div class="service-icon si-gold">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3 class="service-title">Data Recovery</h3>
+          <p class="service-desc">Recover lost files from crashed hard drives, formatted disks, or corrupted storage. We handle HDDs, SSDs, USB drives, and memory cards.</p>
+          <span class="service-price"><i class="fas fa-tag"></i> Starting from 15 KD</span>
+        </div>
+
+        <div class="service-card reveal delay-4">
+          <div class="service-icon si-cyan">
+            <i class="fas fa-wifi"></i>
+          </div>
+          <h3 class="service-title">Network & WiFi Setup</h3>
+          <p class="service-desc">Home and office network installation, router configuration, WiFi extenders, and troubleshooting slow or intermittent connections.</p>
+          <span class="service-price"><i class="fas fa-tag"></i> Starting from 10 KD</span>
+        </div>
+
+        <div class="service-card reveal delay-5">
+          <div class="service-icon si-purple">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <h3 class="service-title">Screen Replacement</h3>
+          <p class="service-desc">Cracked or broken laptop and monitor screens replaced with genuine parts. Fast same-day service with quality OEM and aftermarket displays.</p>
+          <span class="service-price"><i class="fas fa-tag"></i> Starting from 20 KD</span>
+        </div>
+
+        <div class="service-card reveal delay-6">
+          <div class="service-icon si-green">
+            <i class="fas fa-tachometer-alt"></i>
+          </div>
+          <h3 class="service-title">Performance Upgrade</h3>
+          <p class="service-desc">RAM upgrades, SSD installation, thermal paste replacement, and OS optimization to bring your old device back to peak performance.</p>
+          <span class="service-price"><i class="fas fa-tag"></i> Starting from 12 KD</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       HOW IT WORKS
+  ===================== -->
+  <section id="how-it-works">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="section-badge"><i class="fas fa-route"></i> Simple Process</div>
+        <h2 class="section-title">Get Your Device Fixed in<br><span>4 Easy Steps</span></h2>
+        <p class="section-subtitle">We've designed our process to be as easy and stress-free as possible — so you can focus on what matters.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="steps-connector"></div>
+
+        <div class="step-card reveal delay-1">
+          <div class="step-number">1</div>
+          <span class="step-icon">📱</span>
+          <h3 class="step-title">Book Online or Call</h3>
+          <p class="step-desc">Fill out our quick booking form or give us a call. Tell us your device issue and preferred time slot.</p>
+        </div>
+
+        <div class="step-card reveal delay-2">
+          <div class="step-number">2</div>
+          <span class="step-icon">🔍</span>
+          <h3 class="step-title">Free Diagnosis</h3>
+          <p class="step-desc">Our technician arrives and performs a thorough free diagnosis. We explain the issue and provide a transparent quote before any work begins.</p>
+        </div>
+
+        <div class="step-card reveal delay-3">
+          <div class="step-number">3</div>
+          <span class="step-icon">🔧</span>
+          <h3 class="step-title">Expert Repair</h3>
+          <p class="step-desc">Once approved, we get to work using professional tools and quality parts. Most repairs are completed on the spot within 1-2 hours.</p>
+        </div>
+
+        <div class="step-card reveal delay-4">
+          <div class="step-number">4</div>
+          <span class="step-icon">✅</span>
+          <h3 class="step-title">Quality Check & Warranty</h3>
+          <p class="step-desc">We test everything thoroughly before we leave. All repairs come with a 90-day warranty for complete peace of mind.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       WHY CHOOSE US
+  ===================== -->
+  <section id="why-us">
+    <div class="container">
+      <div class="why-grid">
+        <!-- Left: Text & Features -->
+        <div>
+          <div class="reveal-left">
+            <div class="section-badge"><i class="fas fa-star"></i> Why Choose Us</div>
+            <h2 class="section-title">Kuwait's Most Trusted<br><span>Tech Repair Team</span></h2>
+            <p class="section-subtitle">We've built our reputation on speed, transparency, and quality. Here's why hundreds of Kuwaitis choose us every month.</p>
+          </div>
+
+          <div class="why-features">
+            <div class="why-feature reveal delay-1">
+              <span class="wf-icon">⚡</span>
+              <div class="wf-title">1-Hour Response</div>
+              <p class="wf-desc">Technicians dispatched within 60 minutes of your booking, day or night.</p>
+            </div>
+            <div class="why-feature reveal delay-2">
+              <span class="wf-icon">🛡️</span>
+              <div class="wf-title">90-Day Warranty</div>
+              <p class="wf-desc">Every repair is backed by a 90-day guarantee. If it breaks again, we fix it free.</p>
+            </div>
+            <div class="why-feature reveal delay-3">
+              <span class="wf-icon">💰</span>
+              <div class="wf-title">Transparent Pricing</div>
+              <p class="wf-desc">No hidden fees. We quote upfront and never start work without your approval.</p>
+            </div>
+            <div class="why-feature reveal delay-4">
+              <span class="wf-icon">🎓</span>
+              <div class="wf-title">Certified Experts</div>
+              <p class="wf-desc">All technicians are CompTIA A+ certified with 5+ years of hands-on experience.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Stats Panel -->
+        <div class="stats-panel reveal-right">
+          <div class="stats-visual">
+            <div style="margin-bottom:28px">
+              <div class="section-badge" style="margin-bottom:8px"><i class="fas fa-chart-bar"></i> Performance</div>
+              <h3 style="font-family:var(--font-heading);font-size:1.2rem;font-weight:700">Our Track Record</h3>
+            </div>
+
+            <div class="stat-row">
+              <div class="stat-info">
+                <div class="stat-name">Customer Satisfaction Rate</div>
+                <div class="stat-bar-wrap">
+                  <div class="stat-bar" data-width="98"></div>
+                </div>
+              </div>
+              <div class="stat-val">98%</div>
+            </div>
+
+            <div class="stat-row">
+              <div class="stat-info">
+                <div class="stat-name">First-Visit Fix Rate</div>
+                <div class="stat-bar-wrap">
+                  <div class="stat-bar cyan" data-width="91"></div>
+                </div>
+              </div>
+              <div class="stat-val">91%</div>
+            </div>
+
+            <div class="stat-row">
+              <div class="stat-info">
+                <div class="stat-name">On-Time Arrival Rate</div>
+                <div class="stat-bar-wrap">
+                  <div class="stat-bar gold" data-width="96"></div>
+                </div>
+              </div>
+              <div class="stat-val">96%</div>
+            </div>
+
+            <div class="stat-row">
+              <div class="stat-info">
+                <div class="stat-name">Repeat Customer Rate</div>
+                <div class="stat-bar-wrap">
+                  <div class="stat-bar green" data-width="78"></div>
+                </div>
+              </div>
+              <div class="stat-val">78%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       TESTIMONIALS
+  ===================== -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="section-badge"><i class="fas fa-comment-alt"></i> Testimonials</div>
+        <h2 class="section-title">What Our Customers<br><span>Are Saying</span></h2>
+        <p class="section-subtitle">Real reviews from real Kuwaitis who trusted us with their devices.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal delay-1">
+          <div class="quote-icon">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"My laptop completely stopped turning on before an important meeting. I called Kuwait Computer Repair and a technician arrived in under an hour. He replaced a faulty power adapter and had me up and running in no time. Absolutely lifesaving service!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar av-blue">AK</div>
+            <div>
+              <div class="author-name">Ahmed Al-Kaabi</div>
+              <div class="author-role">Business Owner, Salmiya</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal delay-2">
+          <div class="quote-icon">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"I had years of family photos on a crashed hard drive and thought everything was lost forever. Their data recovery service retrieved 97% of my files! The technician was professional, patient, and kept me updated throughout the process. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar av-gold">FH</div>
+            <div>
+              <div class="author-name">Fatima Al-Hamad</div>
+              <div class="author-role">Teacher, Hawalli</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal delay-3">
+          <div class="quote-icon">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Set up a complete office network for our 20-person team. Everything was done in one day, priced fairly, and they even provided a detailed setup guide. Our internet speed issues are completely gone. Best tech service in Kuwait, period."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar av-cyan">MN</div>
+            <div>
+              <div class="author-name">Mohammad Al-Nasser</div>
+              <div class="author-role">IT Manager, Sharq</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       COVERAGE AREA
+  ===================== -->
+  <section id="coverage">
+    <div class="container">
+      <div class="coverage-inner">
+        <div class="reveal-left">
+          <div class="section-badge"><i class="fas fa-map-marked-alt"></i> Coverage Area</div>
+          <h2 class="section-title">We Come to You,<br><span>Anywhere in Kuwait</span></h2>
+          <p class="section-subtitle">Our technicians are strategically located across all governorates, ensuring fast response times wherever you are.</p>
+
+          <div class="areas-grid">
+            <div class="area-chip">Kuwait City</div>
+            <div class="area-chip">Salmiya</div>
+            <div class="area-chip">Hawalli</div>
+            <div class="area-chip">Fahaheel</div>
+            <div class="area-chip">Ahmadi</div>
+            <div class="area-chip">Jahra</div>
+            <div class="area-chip">Mangaf</div>
+            <div class="area-chip">Rumaithiya</div>
+            <div class="area-chip">Salwa</div>
+            <div class="area-chip">Abu Halifa</div>
+            <div class="area-chip">Fintas</div>
+            <div class="area-chip">Egaila</div>
+          </div>
+        </div>
+
+        <div class="map-visual reveal-right">
+          <div class="map-placeholder">
+            <div class="map-pin">📍</div>
+            <div class="map-label">All Kuwait Governorates</div>
+            <div class="map-sub">Capital · Hawalli · Farwaniya · Ahmadi · Jahra · Mubarak Al-Kabeer</div>
+          </div>
+          <p style="margin-top:20px;font-size:0.82rem;color:var(--text-muted);text-align:center">
+            <i class="fas fa-info-circle" style="color:var(--blue-primary)"></i>
+            Not sure if we cover your area? Just call us — we'll let you know!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       CONTACT / BOOKING
+  ===================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="section-badge"><i class="fas fa-calendar-alt"></i> Book a Repair</div>
+        <h2 class="section-title">Ready to Fix Your Device?<br><span>Let's Get Started</span></h2>
+        <p class="section-subtitle">Fill in the form and we'll have a technician at your door in under an hour.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info reveal-left">
+          <h3>Get in Touch</h3>
+          <p>Prefer to talk to a real person? Reach us through any of the channels below. We're available around the clock to take your call.</p>
+
+          <div class="contact-items">
+            <a href="tel:+96550000000" class="contact-item" id="contact-phone-link">
+              <div class="ci-icon ci-blue"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <div class="ci-label">Call Us</div>
+                <div class="ci-value">+965 5000 0000</div>
+              </div>
+            </a>
+
+            <a href="https://wa.me/96550000000" class="contact-item" id="contact-whatsapp-link" target="_blank" rel="noopener">
+              <div class="ci-icon ci-green"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <div class="ci-label">WhatsApp</div>
+                <div class="ci-value">+965 5000 0000</div>
+              </div>
+            </a>
+
+            <a href="mailto:info@computerrepairkuwait.com" class="contact-item" id="contact-email-link">
+              <div class="ci-icon ci-gold"><i class="fas fa-envelope"></i></div>
+              <div>
+                <div class="ci-label">Email</div>
+                <div class="ci-value">info@computerrepairkuwait.com</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Booking Form -->
+        <div class="booking-form reveal-right">
+          <div id="form-content">
+            <h3 class="form-title">📋 Book a Technician</h3>
+            <p class="form-subtitle">Free diagnosis included with every booking. No obligation to proceed.</p>
+
+            <form id="booking-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="full-name">Full Name</label>
+                  <input type="text" id="full-name" name="full_name" placeholder="Your full name" required />
+                </div>
+                <div class="form-group">
+                  <label for="phone-number">Phone Number</label>
+                  <input type="tel" id="phone-number" name="phone" placeholder="+965 XXXX XXXX" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="area">Your Area</label>
+                  <select id="area" name="area" required>
+                    <option value="" disabled selected>Select your area</option>
+                    <option>Kuwait City</option>
+                    <option>Salmiya</option>
+                    <option>Hawalli</option>
+                    <option>Fahaheel</option>
+                    <option>Ahmadi</option>
+                    <option>Jahra</option>
+                    <option>Mangaf</option>
+                    <option>Rumaithiya</option>
+                    <option>Salwa</option>
+                    <option>Abu Halifa</option>
+                    <option>Fintas</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="service-type">Service Needed</label>
+                  <select id="service-type" name="service" required>
+                    <option value="" disabled selected>Select service</option>
+                    <option>Laptop / Desktop Repair</option>
+                    <option>Virus & Malware Removal</option>
+                    <option>Data Recovery</option>
+                    <option>Network & WiFi Setup</option>
+                    <option>Screen Replacement</option>
+                    <option>Performance Upgrade</option>
+                    <option>Other / Not Sure</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="device-info">Device Type & Brand</label>
+                <input type="text" id="device-info" name="device" placeholder="e.g. Dell Inspiron 15 laptop, HP Desktop..." />
+              </div>
+
+              <div class="form-group">
+                <label for="issue-desc">Describe the Issue</label>
+                <textarea id="issue-desc" name="description" placeholder="Tell us what's happening with your device..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit" id="form-submit-btn">
+                <i class="fas fa-calendar-check"></i>
+                Book My Technician Now
+              </button>
+              <p class="form-note">🔒 Your information is private and secure. We'll contact you within 15 minutes.</p>
+            </form>
+          </div>
+
+          <div class="form-success" id="form-success">
+            <span class="success-icon">🎉</span>
+            <h3 class="success-title">Booking Received!</h3>
+            <p class="success-msg">Thank you! We've received your booking request and will contact you within <strong>15 minutes</strong> to confirm your technician's arrival time.</p>
+            <br>
+            <a href="tel:+96550000000" class="btn btn-primary" style="margin: 16px auto; display:inline-flex">
+              <i class="fas fa-phone-alt"></i> Call to Confirm Faster
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       CTA BANNER
+  ===================== -->
+  <section id="cta-banner">
+    <div class="container">
+      <div class="cta-inner reveal">
+        <h2>Device Broken? Don't Wait — We Fix It Today</h2>
+        <p>Join hundreds of satisfied customers across Kuwait. Book now and get a free diagnosis.</p>
+        <div class="cta-actions">
+          <a href="#contact" class="btn btn-white" id="cta-book-btn">
+            <i class="fas fa-calendar-check"></i> Book a Technician
+          </a>
+          <a href="tel:+96550000000" class="btn btn-ghost" id="cta-call-btn">
+            <i class="fas fa-phone-alt"></i> Call +965 5000 0000
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       FOOTER
+  ===================== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="#hero" class="logo">
+            <div class="logo-icon">💻</div>
+            <div class="logo-text">
+              Kuwait Computer Repair
+              <span>On-Call Tech Services</span>
+            </div>
+          </a>
+          <p>Kuwait's most trusted on-call computer repair service. Certified technicians available 24/7 across all governorates. Fast, reliable, and guaranteed.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" id="footer-instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link" id="footer-twitter" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link" id="footer-facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/96550000000" class="social-link" id="footer-whatsapp" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Laptop & Desktop Repair</a></li>
+            <li><a href="#services">Virus Removal</a></li>
+            <li><a href="#services">Data Recovery</a></li>
+            <li><a href="#services">Network Setup</a></li>
+            <li><a href="#services">Screen Replacement</a></li>
+            <li><a href="#services">Performance Upgrade</a></li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#why-us">About Us</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#coverage">Coverage Area</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+96550000000"><i class="fas fa-phone-alt" style="color:var(--blue-primary);margin-right:8px"></i>+965 5000 0000</a></li>
+            <li><a href="https://wa.me/96550000000" target="_blank" rel="noopener"><i class="fab fa-whatsapp" style="color:#25D366;margin-right:8px"></i>WhatsApp</a></li>
+            <li><a href="mailto:info@computerrepairkuwait.com"><i class="fas fa-envelope" style="color:var(--gold);margin-right:8px"></i>Email Us</a></li>
+            <li><a href="#coverage"><i class="fas fa-map-marker-alt" style="color:var(--red);margin-right:8px"></i>All Kuwait</a></li>
+            <li><a href="#"><i class="fas fa-clock" style="color:var(--cyan);margin-right:8px"></i>24/7 Available</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 Kuwait Computer Repair On Call. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Warranty Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
